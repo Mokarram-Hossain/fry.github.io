@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive with html css</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+	<header>
+		<a href="" class="logo">Fry<span>.</span></a>
+		<div class="menuToggle" onclick="toggleMenu();"><i class="fa fa-bars"></i></div>
+		<ul class="navigation">
+			<li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+			<li><a href="#about" onclick="toggleMenu();">About</a></li>
+			<li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+			<li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+			<li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+			<li><a href="#contact" onclick="toggleMenu();">Reservation</a></li>
+		</ul>
+	</header>
+	<section class="banner" id="banner">
+		<div class="content" style="background: rgba(0,0,0,0.5);padding: 60px;">
+			<h2>Eat good, stay fit</h2>
+			<p>Our restaurant is one of the best restaurant.</p><br>
+			<h3 style="color: #ff4000;font-weight: bold;letter-spacing:2px;">Opening Hours:</h3>
+			<p style="font-weight: bold;letter-spacing: 2px">Monday to Friday - 10:00am to 11:00pm</p>
+			<a href="#contact" class="btn">Reservation</a>
+		</div>
+	</section>
+
+	<!--========== about section start =================-->
+	<section class="about" id="about">
+		<div class="row">
+			<div class="col50 content">
+				<h2 class="titleText"><span>A</span>bout Us</h2>
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.<br> It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+			</div>
+			<div class="col50">
+				<div class="imgBox">
+					<img src="images/abt-img.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--========== menu section start =================-->
+	<section class="menu" id="menu">
+		<div class="title">
+			<h2 class="titleText"><span>M</span>enu</h2>
+		</div><!-- end title -->
+		<div class="content">
+			<div class="box">
+				<div class="imgBox">
+					<img src="images/menu1.jpg">
+				</div>
+				<div class="text">
+					<h3>Rice & Meat - $4</h3>
+				</div>	
+			</div><!-- end box -->
+			<div class="box">
+				<div class="imgBox">
+					<img src="images/menu2.jpg">
+				</div>
+				<div class="text">
+					<h3>Chicken curry - $5</h3>
+				</div>	
+			</div><!-- end box -->
+			<div class="box">
+				<div class="imgBox">
+					<img src="images/menu3.jpg">
+				</div>
+				<div class="text">
+					<h3>French Fry - $4</h3>
+				</div>	
+			</div><!-- end box -->
+			<div class="box">
+				<div class="imgBox">
+					<img src="images/menu4.jpg">
+				</div>
+				<div class="text">
+					<h3>Fried rice - $2.5</h3>
+				</div>	
+			</div><!-- end box -->
+			<div class="box">
+				<div class="imgBox">
+					<img src="images/menu5.jpg">
+				</div>
+				<div class="text">
+					<h3>Cake - $2</h3>
+				</div>	
+			</div><!-- end box -->
+			<div class="box">
+				<div class="imgBox">
+					<img src="images/menu6.jpg">
+				</div>
+				<div class="text">
+					<h3>Chicken fry - $1</h3>
+				</div>	
+			</div><!-- end box -->
+		</div>
+		<div class="title">
+			<a href="" class="btn">View All</a>
+		</div>
+	</section>
+<!--========== expert section start =================-->
+<section class="expert" id="expert">
+	<div class="title">
+			<h2 class="titleText"><span>E</span>xperts</h2>
+	</div><!-- end title -->
+	<div class="content">
+		<div class="box">
+			<div class="imgBox">
+				<img src="images/exp1.jpg">
+			</div>
+			<div class="textBox">
+				<h3>Peter</h3>
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-whatsapp"></i>
+			</div>
+		</div><!-- end box -->
+		<div class="box">
+			<div class="imgBox">
+				<img src="images/exp2.jpg">
+			</div>
+			<div class="textBox">
+				<h3>William</h3>
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-whatsapp"></i>
+			</div>
+		</div><!-- end box -->
+		<div class="box">
+			<div class="imgBox">
+				<img src="images/exp3.jpg">
+			</div>
+			<div class="textBox">
+				<h3>Michel</h3>
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-whatsapp"></i>
+			</div>
+		</div><!-- end box -->
+		<div class="box">
+			<div class="imgBox">
+				<img src="images/exp4.jpg">
+			</div>
+			<div class="textBox">
+				<h3>John</h3>
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-whatsapp"></i>
+			</div>
+		</div><!-- end box -->
+	</div>
+</section>
+<!--========== testimonials section start =================-->
+<section class="testimonials" id="testimonials">
+	<div class="title">
+			<h2 class="titleText" style="padding-top: 25px;"><span>T</span>estimonials</h2>
+		</div><!-- end title -->
+		<div class="content">
+			<div class="box">
+				<div class="imgBox">
+					<img src="images/test1.jpg">
+				</div>
+				<div class="textBox">
+					<h3>Samon</h3>
+					<i class="fas fa-quote-left"></i>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+				</div>
+			</div> <!-- end box -->
+			<div class="box">
+				<div class="imgBox">
+					<img src="images/test3.jpg">
+				</div>
+				<div class="textBox">
+					<h3>James</h3>
+					<i class="fas fa-quote-left"></i>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+				</div>
+			</div> <!-- end box -->
+			<div class="box">
+				<div class="imgBox">
+					<img src="images/test5.jpg">
+				</div>
+				<div class="textBox">
+					<h3>Juli</h3>
+					<i class="fas fa-quote-left"></i>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+				</div>
+			</div> <!-- end box -->
+		</div>
+</section>
+<section class="contact" id="contact">
+	<div class="title">
+		<h2 class="titleText"><span>R</span>eservation</h2>
+	</div><!-- end title -->
+	<div class="contactForm">
+		<h3>Personal Detail</h3>
+		<div class="inputBox">
+			<input type="text" name="name" placeholder="Enter Name">
+		</div>
+		<div class="inputBox">
+			<input type="email" name="email" placeholder="Enter Email">
+		</div>
+		<div class="inputBox">
+			<input type="text" name="phone" placeholder="Enter Phone">
+		</div>
+		<h3>Reservation info</h3>
+		<div class="inputBox">
+			<input type="date" name="date" placeholder="Enter Date">
+		</div>
+		<div class="inputBox">
+			<input type="time" name="time" placeholder="Enter Time">
+		</div>
+		<div class="inputBox">
+			<input type="number" name="people" placeholder="Enter Number of Guest">
+		</div>
+		
+		<div class="inputBox">
+			<a href="" class="btn">Send</a>
+		</div>
+	</div>
+</section>
+<div class="copyright">
+	<p>Copyright 2020. <span style="color: #ff4000;font-weight: 600;">Mokarram Hossain</span></p>
+</div>
+
+
+<script type="text/javascript">
+	window.addEventListener('scroll',function(){
+		const header = document.querySelector('header');
+		header.classList.toggle("sticky",window.scrollY > 0);
+	});
+
+	function toggleMenu(){
+		const menuToggle = document.querySelector('.menuToggle');
+		const navigation = document.querySelector('.navigation');
+		// menuToggle.classList.toggle('active');
+		navigation.classList.toggle('active');
+	}
+
+</script>
+</body>
+</html>
